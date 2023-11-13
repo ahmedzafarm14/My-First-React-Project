@@ -1,0 +1,61 @@
+.Header{
+  width: 1920px;
+  height: 150px;
+  display:flex;
+  flex-shrink: 0;
+  fill: #FFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.logo{
+  margin-top: 56.9px;
+  margin-bottom: 56.9px;
+  margin-left: 130px;
+  margin-right: 1620;
+  width: 166.928px;
+  height: 36.112px;
+  float: left;
+  color: rgba(116, 189, 224, 1);
+}
+.Navigation{
+  margin-top: 42px;
+  margin-bottom: 70px;
+  margin-left: 274px;
+  display: flex;
+}
+
+.Lists{
+  display: flex;
+  list-style: none;
+}
+.Lists li{
+  margin-left:18px;
+  margin-right: 18px;
+  color: #565656;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.headerButton{
+  display: flex;
+  margin-top:47px ;
+  margin-bottom: 47px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.Social{
+  display: flex;
+  margin-left: 12px;
+  margin-top: 55px;
+  margin-bottom: 75px;
+}
+.Social img{
+  width: 22px;
+  height: 22px;
+  margin-top: 10px;
+  margin-left: 14px;
+}
+
+
+

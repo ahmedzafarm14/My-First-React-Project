@@ -1,0 +1,47 @@
+.cardMain
+{
+    width: 404px;
+    height: 554px;
+    margin-left: 20px;
+}
+
+
+
+.subCard
+{
+    width: 372px;
+    height: 252px;
+    border-radius: 30px;
+    background: #FFF;
+    margin-left: 16px;
+    margin-top: 270px;
+}
+.subCard p{
+    color: #868686;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-left: 20px;
+}
+.subCard h1{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #74BDE0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.subCard h3{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}

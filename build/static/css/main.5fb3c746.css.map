@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.5fb3c746.css","mappings":"AAAA,KAGI,eAAgB,CADhB,cAAe,CADf,YAGJ,CCJA,EACE,sBACF,CACA,QACE,sBAEF","sources":["index.css","App.css"],"sourcesContent":["body{\r\n    width: 1920px;\r\n    height: 10120px;\r\n    background: #FFF;\r\n}","*{\n  background-color: brown;\n}\n.button{\n  background-color: azure;\n  \n}"],"names":[],"sourceRoot":""}

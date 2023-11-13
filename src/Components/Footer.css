@@ -1,0 +1,48 @@
+.footer{
+    margin-top: 50px;
+    width: 1920px;
+    height: 650px;
+    background-color:  #F1F1F1;
+}
+.footer hr{
+    margin-left: 124px;
+    margin-right: 124px;
+}
+.Ipsumimg{
+    width: 166px;
+    height: 36px;
+    margin-left: 124px;
+    margin-top: 71px;
+}
+.mainFoot{
+    display:flex;
+}
+.items{
+    margin-left: 50px;
+    display:list-item;
+    list-style: none;
+    color: #868686;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    padding-left: 80px;
+    padding-right: 75px;
+}
+.items h3{
+    color: #222;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+.subimg{
+    margin-left: -30px;
+}
+.subimg img{
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+}

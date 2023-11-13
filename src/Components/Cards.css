@@ -1,0 +1,75 @@
+.card{
+    width: 404px;
+    height: 266px;
+    border-radius: 6px;
+    border: 1px solid #3B7197;
+}
+.cardEllipse {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left:147px ;
+    margin-top:-50px ;
+    border: 1px solid #3B7197;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .cardEllipse img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    padding: 20px;
+  }
+  .cardContent{
+    padding: 20px;
+    text-align: center;
+  }
+  .cardContent h2{
+    color: #3B7197;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .cardContent p{
+    color: #868686;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .card3{
+    width: 404px;
+    height: 266px;
+    border-radius: 6px;
+    border: 1px solid #3B7197;
+    background-color: #74BDE0;
+  }
+  .cardContent3{
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .cardEllipse3 img {
+    width: 100.1px;
+    height: 100.1px;
+    object-fit: cover;
+  }
+  .cardEllipse3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left:147px ;
+    margin-top:-50px ;
+    border: 1px solid #3B7197;
+    align-items: center;
+    background-color: #fff;
+  }

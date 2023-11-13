@@ -1,0 +1,48 @@
+.content2{
+    width: 1920px;
+    height: 708px;
+    background: #222;
+    position: relative;
+    overflow: hidden;
+}
+.Box{
+    width: 621.789px;
+    height: 520px;
+    border-radius: 12px;
+    border: 1px dashed #3B7197;
+    position: absolute;
+    margin-top: 56px;
+    margin-left: 122px;
+    
+}
+.img2{
+    width: 621.789px;
+    height: 520px;
+    margin-top: 132px;
+    margin-left: 193px;
+    position:absolute;
+}
+.txt2{
+    float: right;
+    width: 800px;
+    height: 540px;
+    position: relative;
+    margin-right: 140px;
+}
+.txt2 h2{
+    color: #74BDE0;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.txt2 p{
+    color: #868686;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    justify-content: left ;
+}
