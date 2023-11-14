@@ -187,36 +187,6 @@ box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.05) inset;
   padding-bottom: 200px;
   column-gap: 20px;
 }
-.Sorry{
-  margin-top: 400px;
-  width: 1920px;
-  height: 600px;
-  background-color: #74BDE0;
-  text-align:justify;
-  display: flex;
-}
-.Sorry h1{
-  width: 1920px;
-  color: #F1F1F1;
-  background-color: #74BDE0;
-  font-family: Poppins;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 36px;
-  margin-top: 100px;
-  margin-left: 100px;
-}
-.Sorry p{
-  color: #F1F1F1;
-  font-family: Poppins;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 80px;
-  margin-right: 150px;
-  margin-top: 100px;
-}
 .onee{
   margin-left: -1726px;
   margin-top: -461px;
@@ -240,4 +210,8 @@ box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.05) inset;
 .six{
   margin-left: -700px;
   margin-top: 349px;
+}
+.Apparel{
+  width: 1920px;
+  height: 691px;
 }

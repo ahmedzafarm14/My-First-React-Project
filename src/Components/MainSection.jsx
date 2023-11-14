@@ -19,6 +19,10 @@ import four from '../Images/imagefour.png'
 import five from '../Images/imagefive.png'
 import six from '../Images/imagesix.png'
 import three from '../Images/imagethree.png'
+import award from '../Images/award.png';
+import delivery from '../Images/delivery.png'
+import painting from '../Images/painting.png'
+import fruit from '../Images/fruit.png'
 
 const MainSection = () => {
 
@@ -50,6 +54,27 @@ const MainSection = () => {
         p:"Create embroidered patches, woven patches, leather patches, and more to show off your artwork or rep your organization.",
         h3:"Create a Custom patch"
     }
+    const cardTop1={
+        im:award,
+        h2:"Top Quality",
+        p:"Make stuff actually buy, create beautiful, retail-ready custom products with the same QC standards as leading fashion brands"
+    }
+    const cardTop2={
+        im:painting,
+        h2:"Unlimited Customization",
+        p:"Let your imagination run wild. We create every product from scratch so you can customize every last detail."
+    }
+    const cardTop3={
+        i:1,
+        im:fruit,
+        h2:"Low minimums",
+        p:"No more sticker shock. Get small-batch custom manufacturing with low upfront costs and eye-widening profit margins."
+    }
+    const cardTop4={
+        im:delivery,
+        h2:"Quick Turnaround",
+        p:"No timeline is too tight for our rapid small- batch supply chain - let us know when you’ll need products and we’ll make it happen!"
+    }
     return (
         <div>
             <div className='main1'>
@@ -73,10 +98,10 @@ const MainSection = () => {
                 </div>
             </div>
             <div className='Info'>
-                <Cards ID={1}/>
-                <Cards ID={2}/>
-                <Cards ID={3}/>
-                <Cards ID={4}/>
+                <Cards ID={cardTop1}/>
+                <Cards ID={cardTop2}/>
+                <Cards ID={cardTop3}/>
+                <Cards ID={cardTop4}/>
             </div>
             <div className='2ndsec'>
                 <Section2/>
@@ -140,7 +165,7 @@ const MainSection = () => {
                     </div>
                 </div>
             </div>
-            <div className='Sorry'>
+            <div className='Apparel'>
                 <h1>Sorry!</h1>
                 <p>Sorry for incompleteion. I tried my best to complete the task, but I couldn't. I didn't know how to use React initially, so I learned it first and then began the work, which is why I couldn't finish it.</p>
             </div>
