@@ -23,6 +23,11 @@ import award from '../Images/award.png';
 import delivery from '../Images/delivery.png'
 import painting from '../Images/painting.png'
 import fruit from '../Images/fruit.png'
+import Rectangle from './Rectangle'
+import eik from '../Images/eik.png'
+import doo from '../Images/doo.png'
+import teen from '../Images/teen.png'
+import char from '../Images/char.png'
 
 const MainSection = () => {
 
@@ -74,6 +79,22 @@ const MainSection = () => {
         im:delivery,
         h2:"Quick Turnaround",
         p:"No timeline is too tight for our rapid small- batch supply chain - let us know when you’ll need products and we’ll make it happen!"
+    }
+    const ID1={
+        h2:"Embride keychains",
+        im:eik
+    }
+    const ID2={
+        h2:"Sublimated Patches",
+        im:doo
+    }
+    const ID3={
+        h2:"PVC Keychains",
+        im:teen
+    }
+    const ID4 ={
+        h2:"Stickers",
+        im:char
     }
     return (
         <div>
@@ -165,9 +186,14 @@ const MainSection = () => {
                     </div>
                 </div>
             </div>
-            <div className='Apparel'>
-                <h1>Sorry!</h1>
-                <p>Sorry for incompleteion. I tried my best to complete the task, but I couldn't. I didn't know how to use React initially, so I learned it first and then began the work, which is why I couldn't finish it.</p>
+            <div className="Apparel">
+                <h1>Apparel</h1>
+                <div className='rect'>
+                    <Rectangle Data={ID1}/>
+                    <Rectangle Data={ID2}/>
+                    <Rectangle Data={ID3}/>
+                    <Rectangle Data={ID4}/>
+                </div>
             </div>
             <Footer/>
                 

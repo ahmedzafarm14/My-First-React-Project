@@ -212,6 +212,25 @@ box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.05) inset;
   margin-top: 349px;
 }
 .Apparel{
+  margin-top: 400px;
   width: 1920px;
   height: 691px;
+  text-align: center;
+  background: rgba(59, 113, 151, 0.06);
+  box-shadow: -3px -6px 5px 0px rgba(0, 0, 0, 0.10);
+}
+.Apparel h1{
+  color: #3B7197;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 56px;
+}
+.rect{
+  display: flex;
+  margin-left: 200px;
+  column-gap: 40px;
 }
